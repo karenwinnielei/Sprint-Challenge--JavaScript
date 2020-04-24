@@ -25,6 +25,7 @@ zooAnimals.forEach(function(item){
   displayNames.push(`Name: ${item.animal_name}, Scientific: ${item.scientific_name}`);
 })
 console.log(displayNames);
+
 /* Request 2: .map()
 
 The zoos need a list of all their animal's names (animal_name only) converted to lower case. Using map, create a new array of strings named lowCaseAnimalNames, each string following this pattern: "jackal, asiatic". Log the resut.
@@ -76,13 +77,9 @@ function consume (a, b, cb){
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
 
-function add (num1, num2){
-  return num1 + num2;
-}
+add = (num1, num2) => num1 + num2;
 
-function multiply (num1, num2){
-  return num1 * num2;
-}
+multiply = (num1, num2) => num1 * num2;
 
 function greeting (firstName, lastName){
   return `Hello ${firstName} ${lastName}, nice to meet you!`
