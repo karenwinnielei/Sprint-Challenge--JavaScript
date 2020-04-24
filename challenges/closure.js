@@ -16,7 +16,7 @@ function myFunction() {
 }
 myFunction();
 
-// Explanation: nestedFunction can access the variable internal because variable values can be passed down/inherited from the parent function. Since myFunction is the parent of nestedFunction, nestedFunction inherits its variables.
+// Explanation: nestedFunction can access the variable internal because variable values can be passed down/inherited from the parent function. Since myFunction is the parent of nestedFunction, nestedFunction inherits its variables. This is also known as closure.
 
 
 /* Task 2: Counter */
